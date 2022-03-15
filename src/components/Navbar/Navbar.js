@@ -1,12 +1,12 @@
 import React from "react";
-
+import "./navbar.css"
 
 
 const Navbar = ({ brand }) => {
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="mb-10 navbar">
       <div className="container">
-        <a className="navbar-brand text-uppercase" href="/">
+        <a className="navbar-brand" href="/">
           {brand}
         </a>
       </div>

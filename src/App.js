@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar"
-import CharacterList from "./components/Characters";
+import Navbar from "./components/Navbar/Navbar"
+import CharacterList from "./components/Characters/Characters";
 import Pagination from "./components/Pagination"
 
 import React, {useEffect, useState} from "react"

@@ -1,0 +1,22 @@
+
+body {
+  background-color: #1d2228
+}
+
+.card {
+  border: 3px solid #5cd0ee;
+  margin-top: 50px
+}
+
+.card-body {
+  height: 170px
+}
+
+.card:hover {
+  opacity: 0.7
+}
+
+.card:hover .card-body {
+  background-color: #5cd0ee;
+  
+}

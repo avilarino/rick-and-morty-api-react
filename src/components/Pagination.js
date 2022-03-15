@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./character.css"
+
 
 const Pagination = ({prev, next, onPrevious, onNext}) => {
 
