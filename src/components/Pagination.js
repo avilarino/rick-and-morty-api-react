@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import "./pagination.css"
 
 const Pagination = ({prev, next, onPrevious, onNext}) => {
 
@@ -18,7 +18,7 @@ const Pagination = ({prev, next, onPrevious, onNext}) => {
         {
           prev ? ( 
         <li className="page-item">
-          <button className="page-link" onClick={handlePrevious}>Previous</button>
+          <button className="page-link text-dark" onClick={handlePrevious}>Previous</button>
         </li>
            ) : null}
         {
